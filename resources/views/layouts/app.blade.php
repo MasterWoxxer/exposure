@@ -39,12 +39,7 @@
                 </nav>
             </div>
             <div class="navbar-end gap-2">
-                @auth
                 <livewire:layout.navigation />
-            @else
-                <a href="{{ route('login') }}" wire:navigate class="btn btn-ghost">{{ __('Login') }}</a>
-                <a href="{{ route('register') }}" wire:navigate class="btn btn-ghost">{{ __('Register') }}</a>
-            @endauth
             </div>
         </header>
 
