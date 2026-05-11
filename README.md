@@ -17,3 +17,5 @@ Smart contract generation and connect-to-escrow infrastructure for gig performer
 ---
 
 *Created with [MakerLoft](https://makerloft.com)*
+
+<!-- Trigger redeploy -->
